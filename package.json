@@ -2,7 +2,7 @@
   "name": "backend-code-nodejs",
   "version": "1.0.0",
   "main": "app.js",
-  "repository": "git@personal:Four-Films-In-A-Box/backend-code-nodejs.git",
+  "repository": "git@gh_personal:baadillahnabil/tft-be.git",
   "author": "baadillahnabil <nabilzero27@gmail.com>",
   "license": "Copyright",
   "private": true,
