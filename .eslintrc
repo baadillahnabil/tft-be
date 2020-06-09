@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "plugin:import/warnings"],
+  "plugins": ["prettier", "import"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "prettier/prettier": "error",
+    "brace-style": ["error", "stroustrup"],
+    "comma-dangle": ["error", "never"],
+    "no-unused-vars": ["warn"],
+    "no-var": ["off"],
+    "one-var": ["off"]
+  },
+
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}

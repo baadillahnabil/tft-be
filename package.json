@@ -1,0 +1,49 @@
+{
+  "name": "backend-code-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@personal:Four-Films-In-A-Box/backend-code-nodejs.git",
+  "author": "baadillahnabil <nabilzero27@gmail.com>",
+  "license": "Copyright",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r esm app.js"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^2.14.3",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-module-resolver": "^0.15.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-watch": "^6.0.1",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2",
+    "source-map": "^0.7.3"
+  }
+}
